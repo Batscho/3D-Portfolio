@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>3D-Portfolio</title>
+  <!-- Externes CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Google Fonts: Orbitron & Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.0.0/dist/full.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="header-animation p-5 shadow-lg sticky top-0 z-50">
+    <div class="container mx-auto flex justify-between items-center">
+      <!-- Klickbarer Titel führt zur Hero Section -->
+      <a href="#hero" class="text-4xl font-extrabold nav-link">3D-Portfolio</a>
+      <nav class="space-x-6">
+        <a class="nav-link text-xl" href="#modellierung">3D-Modellierung</a>
+        <a class="nav-link text-xl" href="#animation">Animation</a>
+        <a class="nav-link text-xl" href="#rendering">Rendering</a>
+        <a class="nav-link text-xl" href="#texturing">Texturing</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section: Vollbildvideo mit blockweisem Text-Overlay -->
+  <section id="hero">
+    <video autoplay muted loop>
+      <source src="assets/5CHIT_202425/SoSe_202425/maya_booleans.mp4" type="video/mp4">
+      Ihr Browser unterstützt dieses Videoformat nicht.
+    </video>
+    <div class="hero-content">
+      <h1>Willkommen in der 
+        <br>
+        3D-Welt
+      </h1>
+      <p>Erleben Sie kreative und inspirierende Kreationen, welche mit der 3D-Technologie Maya realisiert wurden – individuell, markant und innovativ</p>
+    </div>
+  </section>
+
+  <!-- 3D-Modellierung Section -->
+  <section id="modellierung" class="container mx-auto">
+    <h2 class="section-title">3D-Modellierung</h2>
+    
+    <!-- Task 1.1: Beschreibung links, Bild rechts -->
+    <div class="task">
+      <div class="media">
+        <img src="assets/3CHIT_202223/WiSe_202223/maya_shaderroboter.png" alt="Maya Shaderpanzer">
+      </div>
+      <div class="description">
+        <h3>PANZER IM ANMARSCH</h3>
+        <p>Dies war mein erstes in Maya umgesetztes Werk – ein Panzer, der mit individuell entwickelten Shadern und einem 
+          HDRI-Lichtsetting ausgestattet ist. Hier begann meine Reise in die 3D-Welt: Der erste Schritt war, einen beliebigen Roboter
+          mittels Polygonen zu modellieren und anschließend zu texturieren. Mithilfe moderner MESH-Technologie 
+          konnte ich eine überzeugende erste Aufgabe realisieren. Trotz noch begrenzter Vorkenntnisse stellte die Umsetzung des 
+          Shaderpanzers (oder Shaderroboters) eine spannende Herausforderung dar – ein spielerischer Wall·E-artiger Panzer, der im 
+          Eifer des Gefechts rollt. (3D-Werk überarbeitet - Szene, HDRI und Render)</p>
+      </div>
+    </div>
+    
+    <!-- Task 1.2: Bild links, Beschreibung rechts -->
+    <div class="task">
+      <div class="media">
+        <img src="assets/4CHIT_202324/WiSe_202324/maya_nurbs_laserschwert.png" alt="Maya Nurbs Laserschwert">
+      </div>
+      <div class="description">
+        <h3>MÖGE DIE MACHT MIT DIR SEIN</h3>
+        <p>Ein Laserschwert, erschaffen mit der innovativen NURBS-Technologie – bei der präzise Kurven gezeichnet und in einen
+           fertigen Körper transformiert werden – demonstriert eindrucksvoll, wie ideal diese Methode für zylindrische Objekte 
+           wie Weingläser oder eben Laserschwerter geeignet ist. Doch wie wurde das strahlende Licht dieses Laserschwerts kreiert? 
+           Mithilfe eines AI-MESH-Lights gelang es, ein intensives, fast magisches Leuchten zu erzeugen. Trotz anfänglicher 
+           Wissenslücken boten zahlreiche Tutorials und Hilfestellungen die nötige Unterstützung, sodass am Ende nur noch zu sagen 
+           bleibt: „Möge die Macht mit dir sein.“ (3D-Werk überarbeitet - Szene, HDRI und Render)</p>
+      </div>
+    </div>
+    
+    <!-- Task 1.3 -->
+    <div class="task">
+      <div class="media">
+        <video controls>
+          <source src="assets/5CHIT_202425/SoSe_202425/maya_booleans.mp4" type="video/mp4">
+          Ihr Browser unterstützt dieses Videoformat nicht.
+        </video>
+      </div>
+      <div class="description">
+        <h3>DIE CS:GO CASE</h3>
+        <p>Wer hätte gedacht, dass man eine CS:GO-Kiste so mühelos nachmodellieren kann? Diese Aufgabe erforderte den gezielten 
+          Einsatz von Booleans, um eine anspruchsvolle Lootbox zu formen. Statt einer simplen, wenig herausfordernden Box wählte 
+          ich bewusst das Design einer CS:GO-Case – eine Idee, die mich sofort begeisterte. Mithilfe verschiedenster MESH-Optionen 
+          wie Bevel, Difference, Fill-Hole, Mirror, Extrude und weiteren Techniken entstand eine klassische CS:GO-Case, die mich sowohl 
+          künstlerisch als auch technisch forderte und letztlich überzeugte. Eine bereits auf Sketchfab modellierte Kiste diente 
+          dabei als Inspiration und Basis. Also, wann startet das nächste Case-Opening?
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Animation Section -->
+  <section id="animation" class="container mx-auto">
+    <h2 class="section-title">Animation</h2>
+    
+    <!-- Task 2.1 -->
+    <div class="task">
+      <div class="media">
+        <video controls>
+          <source src="assets/3CHIT_202223/SoSe_202223/maya_keyframeanimation.mp4" type="video/mp4">
+          Ihr Browser unterstützt dieses Videoformat nicht.
+        </video>
+      </div>
+      <div class="description">
+        <h3>DIE ERSTE KEYFRAMEANIMATION</h3>
+        <p>Das Kapitel Animation – speziell die Keyframeanimation – war eine echte Herausforderung. Diese Aufgabe liegt schon 
+          lange zurück und erinnert mich an die Zeiten, als ich in Maya noch kaum bewandert war. Gemeinsam sollten wir mit 
+          unserem Schullogo (TGM) eine kreative Keyframeanimation umsetzen, bei welcher der präzise Einsatz einzelner Keyframes 
+          im Fokus stand. Meine Idee war es, einen Ball zu verfolgen, der sowohl mit dem Schriftzug interagiert als auch 
+          dynamisch durch die Keyframes gesteuert wird. Die flüssige Gestaltung der Bewegung erwies sich als besonders schwierig 
+          und bot noch erhebliches Verbesserungspotenzial. Um meine Unzufriedenheit auszugleichen, integrierte ich zusätzlich meinen 
+          geliebten Shaderpanzer – so konnte ich zumindest ein Werk präsentieren, das den Aufwand kompensierte.
+        </p>
+      </div>
+    </div>
+    
+    <!-- Task 2.2 -->
+    <div class="task">
+      <div class="media">
+        <video controls>
+          <source src="assets/4CHIT_202324/SoSe_202324/maya_rig_animation.mp4" type="video/mp4">
+          Ihr Browser unterstützt dieses Videoformat nicht.
+        </video>
+      </div>
+      <div class="description">
+        <h3>EIN SPORTLICHER NINJA</h3>
+        <p>Die erste Keyframeanimation war bereits eine enorme Herausforderung – ein Projekt, das mich an meine Grenzen führte. 
+          Ein Jahr später stand dann die Umsetzung einer sportlichen Bewegung an: Ich entwickelte eine komplexe Liegestütz-Animation, 
+          bei der jeder Keyframe für jeden Finger präzise gesetzt wurde, um eine flüssige und realistische Bewegung zu erzeugen. 
+          Doch bevor diese Animation überhaupt entstehen konnte, begann die eigentliche Meisterleistung in Phase 1: 
+          die Umwandlung eines bestehenden Ninja-Modells in ein voll funktionsfähiges Rig-Modell. Dieses Rig ermöglichte es, die 
+          Beweglichkeit der Gliedmaßen detailliert zu steuern – ein Prozess, der viel Zeit und Feinschliff erforderte. 
+          Was ich mir beim Equipment in der Umgebung gedacht habe? Ich weiß es nicht, womöglich ein Fitnessstudio.
+          Nachdem das Fundament gelegt war, wurde die Liegestütz-Animation Schritt für Schritt perfektioniert. Doch wer hätte gedacht, dass
+          es hier nicht aufhört? Als krönender Abschluss nahm das Rendern der sogenannten "Sequence", bei dem jeder Frame berechnet 
+          wurde, schlappe 6 Stunden in Anspruch. Diese Arbeit vereint das technische Rigging mit der kreativen Präzision der 
+          Keyframeanimation und zeigt, wie harte Arbeit und kontinuierlicher Feinschliff zu einem zufriedenstellenden Ergebnis führen.
+        </p>
+      </div>
+    </div>
+    
+    <!-- Task 2.3 -->
+    <div class="task">
+      <div class="media">
+        <video controls>
+          <source src="assets/4CHIT_202324/SoSe_202324/maya_mimics.mp4" type="video/mp4">
+          Ihr Browser unterstützt dieses Videoformat nicht.
+        </video>
+      </div>
+      <div class="description">
+        <h3>SU NOMBRE ES GUSTAVO</h3>
+        <p>Ich nenne diesen Charakter „Gustavo Gaviria“ – inspiriert von der Netflix-Serie Narcos, auch wenn er der ursprünglichen 
+          Figur nicht direkt ähnelt. Mit einer Mischung aus mexikanisch‑kolumbianischen Elementen erweckte er in mir sofort den Wunsch,
+          ihm diesen Namen zu verleihen. Die eigentliche Aufgabe war jedoch eine ganz andere: Mit der Kraft von Blendshapes ließ sich
+          einem Modell ein ganzes Spektrum an Emotionen verleihen. Indem ich das Gesicht duplizierte und Schritt für Schritt einzelne
+          Blendshapes erstellte, entfalteten sich eine Vielzahl unterschiedlicher Ausdrucksformen – von seltsamen Grimassen bis 
+          zu tiefgründigen Emotionen. Durch gezielte Manipulation von Vektoren und Flächen entstand ein Kopf, der förmlich lebendig
+          wirkte. Den krönenden Abschluss bildete die Behaarung, realisiert mit XGen – einer Grooming-Technologie, auf die ich 
+          besonders stolz bin. Am Ende des Schuljahres, als noch Zeit und Raum für Experimente blieben, setzte ich meine 
+          Eigeninitiative ein, um Haare, Bart und Augenbrauen zu kreieren, die mir das Gefühl gaben, ein wahrer Maya-Profi mit 
+          Fokus auf XGen zu sein. Dies erfolgte durch Werkzeuge, welche von XGen zur Verfügung gestellt werden, um die Behaarung zu "designen".
+          Hermano, ich war wirklich stolz auf Gustavo!
+        </p>
+      </div>
+    </div>
+
+    <!-- Task 2.4 -->
+    <div class="task">
+      <div class="media">
+        <img src="assets/5CHIT_202425/WiSe_202425/maya_nCloth_table.png" alt="Maya nCloth Tisch">
+      </div>
+      <div class="description">
+        <h3>NCLOTH SAGT BON APPÉTIT</h3>
+        <p>Die Umsetzung einer realistischen Tischdecke mag auf den ersten Blick simpel erscheinen – und genau darum ging es: ein 
+          erstes Gefühl für externe Technologien zu bekommen. nCloth eignet sich hervorragend für die naturgetreue Darstellung von 
+          Stoffen, Kleidung oder eben Decken. Für diese Aufgabe gestaltete ich eine Szene, in der eine Tischdecke den Tisch ziert, 
+          auf dem ein köstliches Mittagessen serviert wird – bestehend aus einem saftigen Steak, passendem Besteck und einem Weinglas, 
+          das ich mit NURBS modelliert hatte. Der Ansatz war simpel: Ausgehend von einer Plane verwandelte ich dieses Objekt in ein 
+          nCloth. Ein Collider – in diesem Fall der Tisch – sorgt dafür, dass der Stoff realistisch mit der Umgebung interagiert. 
+          So entstand in wenigen Schritten eine Tischdecke, ein Mittagessen, ein 3D-Werk.
+        </p>
+      </div>
+    </div>
+
+    <!-- Task 2.5 -->
+    <div class="task">
+      <div class="media">
+        <img src="assets/5CHIT_202425/WiSe_202425/maya_blobbyParticles.png" alt="Maya Blobby Particles">
+      </div>
+      <div class="description">
+        <h3>LUSTIGE BLOBBY PARTICLES</h3>
+        <p>
+          Als effiziente Alternative zur Flüssigkeitssimulation erwies sich der Einsatz von nParticles als besonders überzeugend. 
+          Diese Technologie eignet sich hervorragend für die dynamische Darstellung von Partikeln – vorausgesetzt, die Elemente werden 
+          richtig gesetzt (mit Gefühl). Zunächst wird ein nParticle als Emitter erstellt, der die Partikel in die Szene ausstrahlt. 
+          Anschließend erfolgt eine detaillierte Konfiguration im Attribute-Editor, wo Emissionsrate, Radius, Geschwindigkeit, 
+          Lebensdauer und weitere Parameter präzise eingestellt werden können. Damit die Partikel mit Objekten interagieren, wurde 
+          ein Collider benötigt – in diesem Fall ein Häferl, welches ich selbst modelliert habe. Besonders faszinierend war die
+          Anpassung der Partikeloptik durch vorgefertigte Texturen, die unterschiedliche Effekte wie Wasser, Milch, Honig oder Blut 
+          realistisch abbildeten. Letztlich wurde diese Aufgabe zu einem unterhaltsamen Experiment, das technische Herausforderungen 
+          und kreativen Spaß in Einklang brachte. (3D-Werk überarbeitet - HDRI und Render)
+        </p>
+      </div>
+    </div>
+
+    <!-- Task 2.6 -->
+    <div class="task">
+      <div class="media">
+        <video controls>
+          <source src="assets/5CHIT_202425/WiSe_202425/maya_cgi.mp4" type="video/mp4">
+          Ihr Browser unterstützt dieses Videoformat nicht.
+        </video>
+      </div>
+      <div class="description">
+        <h3>FAZIT: ES GIBT ALIENS</h3>
+        <p>
+          Mit dieser Aufgabe fand die Ära der Keyframeanimationen ihren unterhaltsamen Abschluss. Über drei Jahre hinweg hatte ich
+          mich mit verschiedenen Keyframe-Projekten beschäftigt – jedes eine eigene Herausforderung. Als Nächstes stand ein UFO im 
+          Mittelpunkt: ein außerirdisches Gefährt, das um ein reales Gebäude (in einem Bild) – sei es das Schulgebäude des TGMs oder 
+          das gemütliche Sommerhaus – herumschwirrt. Zuerst wurde ein passendes Bild aufgenommen, das als Kulisse diente. 
+          Anschließend modellierte ich ein überzeugendes UFO, welches sich harmonisch in die Szene einfügen sollte. Schatten, 
+          Masken und eine präzise Lichtsetzung sorgten dafür, dass das UFO ins ursprüngliche Bild integriert wurde. Doch wie so oft 
+          im 3D-Universum kam es zu unerwarteten Hürden: Einige gerenderte PNG-Bilder enthielten transparente Materialbereiche, welche 
+          das Gesamtbild störten. Schließlich entpuppte sich eine Arnold-Shadow-Matte als Übeltäter – und die Lösung war ebenso simpel
+          wie genial: Statt PNG sollte man doch lieber JPG verwenden. An dieser Stelle möchte ich den magischen Händen meines 
+          3D-Lehrers danken, welcher zufällig zur Lösung gelangt ist.
+        </p>
+      </div>
+    </div>
+
+    <!-- Task 2.7 -->
+    <div class="task">
+      <div class="media">
+        <video controls>
+          <source src="assets/5CHIT_202425/SoSe_202425/maya_bifrostLiquids.mp4" type="video/mp4">
+          Ihr Browser unterstützt dieses Videoformat nicht.
+        </video>
+      </div>
+      <div class="description">
+        <h3>DER BESTE WEIN KOMMT AUS GEORGIEN</h3>
+        <p>Es besteht kein Zweifel: Der beste Wein stammt aus Georgien – dem jahrtausendealten Weinland. So weit so gut mit der Geschichtsstunde.
+          Dies ist die aktuellste Aufgabe, in der es zur Umsetzung von Flüssigkeiten mittels Bifrost Liquids kam, einer Maya-Erweiterung, die man 
+          bequem über den Plugin-Manager lädt. Wie bei nCloth und nParticles verwandelt Bifrost ein Objekt in eine echt aussehende 
+          Flüssigkeit – winzige Partikel, die emittiert werden. Dazu kommen Collider, die dafür sorgen, dass die Flüssigkeit 
+          realistisch mit der Umgebung interagiert, sowie eine „Killplane“, die überschüssige Partikel löscht, um die 
+          Performance zu optimieren. Doch was sieht man in dieser Szene? Inspiriert von den Materialien meiner nCloth-Aufgabe – 
+          bewusst gewählt, um den Reiz zu erhöhen – kombiniert sich hier ein Mittagessen mit dem perfekten Wein. Wozu gibt es ein 
+          schmackhaftes Mittagessen ohne einen ansprechenden Tropfen aus Georgien? Anstelle einer herkömmlichen Weinflasche, deren 
+          schmaler Hals das Ausgießen erschwert, kam eine Tasse zum Einsatz. Man sieht förmlich, wie die Tasse den edlen Wein elegant 
+          in ein Weinglas schüttet – ein Anblick, der einen Genuss verspricht. Ein Problem stellte unter anderem das Übermaß an Flüssigkeit
+          dar, was nicht reduziert werden konnte. Zudem konnte die Flüssigkeit nicht flüssiger realisiert werden, als sie schon ist 
+          (womöglich ist bessere Technik vonnöten). Zwar ist das Ergebnis nicht vollkommen makellos, doch es vermittelt das Gefühl 
+          von Einzigartigkeit und purer Freude. Als Textur wurde die Voreinstellung „Blut“ gewählt, was dem Ganzen einen fast 
+          mystischen Touch verleiht – aber bitte, betrinken Sie sich nicht zu sehr, auch wenn der Wein unwiderstehlich ist!
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rendering Section -->
+  <section id="rendering" class="container mx-auto">
+    <h2 class="section-title">Rendering</h2>
+    
+    <!-- Task 3.1 -->
+    <div class="task">
+      <div class="media">
+        <img src="assets/3CHIT_202223/WiSe_202223/maya_chessboard.png" alt="Maya Chessboard">
+      </div>
+      <div class="description">
+        <h3>SCHACH IST DIE KUNST DER ANALYSE</h3>
+        <p>Dieses Schachbrett gehört zu meinen allerersten Maya-Werken. Ziel war es, ein vorhandenes Schachbrett samt Figuren durch 
+          ein ansprechendes Lichtsetting und Texturen zum Leben zu erwecken. Auf dem Brett wurde eine Bildtextur – liebevoll aus dem 
+          Internet ausgewählt – mittels UV-Mapping bestmöglich an die Oberfläche angepasst. Die einzelnen Figuren erhielten ihre 
+          eigene Materialität durch den Einsatz des "aiStandardSurface"-Shaders, sodass sie im Arnold-Render beeindruckend zur 
+          Geltung kamen. Abgerundet wurde die Szene durch einen "Skydome", der mit einem vorgefertigten HDRI die Umgebung in ein 
+          atmosphärisches Licht taucht. Es ist erstaunlich, wie sehr sich unser Schaffen in nur drei Jahren weiterentwickelt hat – 
+          damals nutzte ich noch den Maya Software-Renderer, heute den fortschrittlichen Arnold-Renderer. Wie die Zeit vergeht... 
+          (3D-Werk überarbeitet - Texturen, Szene, HDRI und Render)</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Texturing Section -->
+  <section id="texturing" class="container mx-auto">
+    <h2 class="section-title">Texturing</h2>
+    
+    <!-- Task 4.1 -->
+    <div class="task">
+      <div class="media">
+        <img src="assets/3CHIT_202223/SoSe_202223/maya_UV_mapping.png" alt="Maya UV-Mapping">
+      </div>
+      <div class="description">
+        <h3>RUBIK'S CUBE, PEPSI UND ERDE?</h3>
+        <p>UV-Mapping ist kein gigantisches Kapitel wie die Animation – es bleibt kompakt, bringt aber den eigentlichen Nutzen auf
+          den Punkt. Es handelt sich dabei um eine Technik, mit der Texturen präzise auf verschiedenste Materialien „geklebt“ werden,
+          indem die UV-Oberfläche so modifiziert wird, dass sie optimal zu den Polygonen passt. Wie in diesem Bild zu erkennen, 
+          wurde eine Erdtextur auf eine Kugel projiziert – hierfür wählte ich eine "spherical"-UV, während beispielsweise bei einer 
+          Pepsi-Dose eine zylindrische UV-Option ideal ist. Darüber hinaus bietet der UV-Editor die Möglichkeit, selbst die 
+          Oberfläche eines Würfels – wie etwa eines Rubik's Cube – so zu gestalten, dass die Textur in genau dem gewünschten Format 
+          perfekt zur Geltung kommt. So wird UV-Mapping präzise und effizient auf den Punkt gebracht.
+          (3D-Werk überarbeitet - Szene, HDRI und Render)</p>
+      </div>
+    </div>
+    
+    <!-- Task 4.2 -->
+    <div class="task">
+      <div class="media">
+        <video controls>
+          <source src="assets/5CHIT_202425/WiSe_202425/maya_entwicklungsstufen.mp4" type="video/mp4">
+          Ihr Browser unterstützt dieses Videoformat nicht.
+        </video>
+      </div>
+      <div class="description">
+        <h3>NICHT IN DIE AUGEN SCHAUEN!</h3>
+        <p>Neben dem UV-Mapping nimmt das Thema Topologien kaum Platz ein – es lässt sich kurz und prägnant erklären. Für diese 
+          Aufgabe habe ich mir wieder etwas Andersartiges gedacht: Es ging darum, den Entwicklungsprozess eines Werkes in drei 
+          Zuständen zu zeigen. Zunächst ein Shader (Lambert), der das Modell präsentiert, ohne sich groß um Licht und Textur zu 
+          scheren – das rohe Fundament. Dann kam der "aiWireframe"-Shader von Arnold ins Spiel, der die exakte Topologie der 
+          Polygone vor Augen führte – wie ein Röntgenblick ins Innere des Modells. Und schließlich die finale Texturierung, die 
+          dem Ganzen den letzten, perfekten Schliff verleiht. Anhand eines Objekts, welches den Fokus meiner Arbeit zeigt, wurde 
+          der Prozess erfolgreich demonstriert. Selbst bei dieser scheinbar simplen Aufgabe habe ich mir die Zeit genommen, einen 
+          Enderman aus dem Internet auszuwählen (auf Sketchfab) – dessen Topologie war einfach ideal. Ein kleiner Hinweis, falls es
+          noch nicht bemerkt wurde: Nicht in die Augen schauen! 
+        </p>
+      </div>
+    </div>
+    
+    <!-- Task 4.3 -->
+    <div class="task">
+      <div class="media">
+        <img src="assets/5CHIT_202425/WiSe_202425/maya_xGen.png" alt="Maya XGen-Ork">
+      </div>
+      <div class="description">
+        <h3>EIN ORK MIT TRADITION</h3>
+        <p>In den Tiefen der 3D-Welt, dort, wo Polygone auf Schatten treffen und Texturen zum Leben erwachen, entstand mein 
+          neuestes Meisterwerk – ein Ork, der direkt aus einer epischen Schlacht entstiegen sein könnte. Neben meinem geschätzten 
+          Gustavo Gaviria ist auch dieses Biest ein Kind der XGen-Technologie, geformt aus digitaler Wildheit und purer Kreativität.
+          Anfangs war er nichts weiter als ein kahler, harmloser Ork mit blasser Haut – kein Hauch von Furcht, keine Spur von wilder 
+          Kraft. Doch ich sah das wahre Potenzial. Mit Photoshop veränderte ich seine Hautfarbe, tauchte ihn in ein sattes Grün, das 
+          ihn mit der rauen Energie eines echten Kriegsherren erfüllte. Dann kam XGen ins Spiel – meine ultimative Geheimwaffe. Mit 
+          Akribie und Leidenschaft erschuf ich sein langes, ungezähmtes Haar, das im Wind einer imaginären Schlacht wehen könnte. 
+          Seine buschigen, bedrohlichen Augenbrauen ließen ihn noch furchteinflößender wirken, während der markante Bart seinen Look 
+          vollendete – ein Krieger, bereit für die Welt von Warcraft oder den nächsten 3D-Film.
+          XGen war über meine gesamte Reise hinweg eine der faszinierendsten Technologien für mich. Es brachte meinen Modellen Seele, 
+          Charakter und diesen Funken an Realismus, der aus einem einfachen Mesh eine Legende macht. Und dieser Ork? Er war der 
+          Beweis, dass ich das Grooming in Maya einfach konnte. Ich war mehr als zufrieden – ich war stolz!
+          (3D-Werk überarbeitet - Szene, HDRI und Render)</p>
+      </div>
+    </div>
+
+    <!-- Task 4.4 -->
+    <div class="task">
+      <div class="media">
+        <img src="assets/5CHIT_202425/WiSe_202425/maya_johnWick.png" alt="Maya XGen-John Wick">
+      </div>
+      <div class="description">
+        <h3>NICE TO MEET YOU, MR.WICK</h3>
+        <p>Der krönende Abschluss meiner XGen-Reise – eine Figur, die dem legendären John Wick ähnelt, aber mit meiner eigenen 
+          künstlerischen Note verfeinert wurde. Eine Gestalt voller Charisma, mit einer Mähne, die den Wind der digitalen Welt 
+          zu spüren scheint. Doch hinter diesem beeindruckenden Look steckt eine Geschichte voller Herausforderungen, Feinschliff 
+          und einer fast schon obsessiven Perfektionierung des digitalen Groomings.
+          Da ein passendes Kopfmodell für den ikonischen Killer einen gewissen Preis forderte, griff ich kurzerhand
+          auf meinen alten Bekannten Gustavo zurück – ein wahres Chamäleon unter den 3D-Modellen. Doch dieses Mal nutzte ich eine 
+          erweiterte XGen-Technik, die sich als sowohl geniale als auch gnadenlose Herausforderung erwies: "Guides".
+          Im Gegensatz zu meiner bisherigen Methode, bei der ich Haare platzierte, kämmen und per Parameter feinjustieren konnte, 
+          verlangten Guides eine akribische Kontrolle. Mittels weniger Strähnen definierte ich die Wachstumsrichtung der Haare, bestimmte, 
+          wo welche Haarpracht sprießen durfte und wo nicht. Jedes Detail – von der Haarlänge bis zur Dichte – musste händisch 
+          optimiert werden. Über Stunden hinweg kämpfte ich gegen die Tücken dieses anspruchsvollen Ansatzes, doch am Ende stand er 
+          da: John Wick in all seiner digital-frisurtechnischen Perfektion. Sein dichter, fließender Haarfall, sein scharf 
+          gezeichneter Bart, die spitzen, entschlossenen Augenbrauen – jedes Element verpasste ihm eine dominante Präsenz. Selbst 
+          die Wimpern, ein oft unterschätztes Detail, gaben seinem Blick eine Tiefe, die einen Charakter schuf.
+          Ja, es war mühsam. Ja, es hat Nerven gekostet. Aber am Ende kann ich mit Stolz sagen: XGen hat sich in meinen Adern 
+          eingebürgert, und dieser John Wick wäre bereit für seinen nächsten Rachefeldzug gegen die Mitglieder der "Hohen Kammer"!
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer-animation p-5 mt-10">
+    <div class="container mx-auto text-center footer-text">
+      <p class="mb-2 text-sm">2022 bis 2025 ElBahooo - 3D Werke</p>
+      <p class="text-xs">Portfolio | 3D-Modellierung | Animation | Rendering | Texturing – <b>Kreative und inspirierende Lösungen für die 3D-Welt</p>
+    </div>
+  </footer>
+</body>
+</html>
