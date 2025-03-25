@@ -5,6 +5,9 @@ body {
     overflow-x: hidden;
     margin: 0;
 }
+html {
+    scroll-behavior: smooth;
+  }
 /* Footer Text */
 .footer-text {
     font-family: 'Poppins', sans-serif;
